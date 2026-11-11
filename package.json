@@ -1,0 +1,14 @@
+{
+  "name": "steinhaus",
+  "version": "1.0.0",
+  "description": "Triangulos de Steinhaus balanceados, varridos linha inicial a linha inicial",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "main": "src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  }
+}
